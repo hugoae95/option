@@ -1,8 +1,6 @@
 import { combineReducers } from "redux";
 import {persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import auth from '../reducers/auth.reducers';
-import route from '../reducers/route.reducers';
 
 
 const persistConfig={
@@ -12,10 +10,6 @@ const persistConfig={
 }
 
 
-const rootReducers = combineReducers({
-  //add reducers
-  auth,
-  route,
-});
+const rootReducers = combineReducers({});
 
 export default persistReducer(persistConfig,rootReducers);
