@@ -1,0 +1,21 @@
+.banner-grid{
+    text-align: center;
+    max-width: 754px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 30px;
+    .title{
+        h2{
+            font-size: 36px;
+            color: #7F00B2;
+        }
+    }
+    .body{
+        p{
+            font-size: 26px;
+        }
+    }
+    .actions{
+        margin-top: 30px;
+    }
+}

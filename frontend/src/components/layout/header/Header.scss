@@ -1,0 +1,12 @@
+header {
+    padding: 0 20px;
+    .actions{
+        justify-content: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .btn-donate{
+            margin-right: 10px;
+        }
+    }
+}

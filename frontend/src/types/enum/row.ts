@@ -1,0 +1,7 @@
+export enum Row{
+	CAUSE = 'CAUSE',
+	ORGANIZATION = 'ORGANIZATION',
+	COMUNITY = 'COMUNITY',    
+	BLOG = 'BLOG',  
+	HELPERS = 'HELPERS'
+}

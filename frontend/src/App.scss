@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import './assets/css/slick-carousel/slick.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css';
+
+body{
+  font-family: 'Comfortaa', cursive;
+  color: #636363;
+  overflow-x: hidden;
+}
+
+input, button {
+  font-family: 'Comfortaa', cursive;
+
+}
+
+body .MuiInputBase-root, body .MuiInputLabel-formControl{
+  font-family: 'Comfortaa', cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.full{
+  padding: 0 2em;
+  height: 100vh;
+}
+body{
+  .back-to{
+    margin-right: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-transform: none;
+    background-color: #FFF;
+    border-color: #a227d3;
+    a{
+        color: #a227d3;
+        text-decoration: none;
+    }
+    &:hover{
+        color: white;
+        border-color: #a227d3;
+        background-color: #a227d3;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+  .btn-form{
+    font-family: 'Comfortaa', cursive;
+    text-transform: none;
+    background-color: #7F00B2;
+    a{
+      color: #fff;
+      text-decoration: none;
+      &:hover{
+        color: #fff;
+        background-color: #a227d3;
+    }
+    }
+    &:hover{
+        background-color: #a227d3;
+    }
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  color: #636363;
+}
+
+h2{
+  font-size:24px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slick-slider{
+  margin-top: 30px;
+}
+
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.slick-dots{
+  bottom: 0;
+  position: relative;
+  margin: 20px 0 30px;
+}
+
+.slick-dots li.slick-active button:before, .slick-dots li button:focus:before, .slick-dots li button:hover:before {
+  color: #7F00B2;
+}
+
+.icons-actions{
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  cursor: pointer;
+  &:hover { 
+    opacity: 0.75;
+  }
+}
+
+.like-donors{
+  background-image: url(../src/assets/svg/heart.svg);
+  justify-content: center;
+  align-items: center;
+  span{
+    position: relative;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+  }
+}
+.shared-donors{
+  background-image: url(../src/assets/svg/shared.svg);
+}
+.shared-link{
+  background-image: url(../src/assets/svg/link.svg);
+  width:24px;
+  height:24px;
+  a{  
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    img{
+      width:100%;
+      height:100%;
+      opacity:0;
+    }
+  }
+}
+.content-tag-e{
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+  span{
+    display: flex;
+    background-color: #F9F2FB;
+    color: #7F00B2;
+    padding: 8px 30px;
+    text-align: center;
+  }
+}
+.page{
+  min-height: 900px;
+}
+.page-center{
+  text-align: center;
+  .container{
+    padding-top: 60px;
+    h1{
+      color: #7F00B2;
+      font-size:36px;
+    }
+    p{
+      max-width: 700px;
+      margin: 0 auto 50px;
+      font-size: 24px;
+      display: block;
+      a{
+        color: #7F00B2;
+      }
+    }
+  }
+}
