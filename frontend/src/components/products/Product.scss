@@ -1,12 +1,14 @@
 .itemsCarousel{
-    padding: 0 10px;
-    text-align: left;
+    padding: 0 25px;
+    text-align: center;
+    border-right: 1px solid #000036;
+    margin-bottom: 30px;
     h4{
-        min-height: 39px;
+        margin: 0;
     }
     img{
         width: 100%;
-        object-fit:  cover;
+        object-fit: contain;
         height: 180px;
     }
     div.image_foundation{
@@ -27,6 +29,12 @@
             margin-left: 3%;
 
         }
+    }
+}
+#product-3{
+    .itemsCarousel{
+        border-right: none;
+
     }
 }
 .donor-items{

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snaphot generate  1`] = `
+<div
+  className="itemsCarousel item-cause"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 donor-items blog-items css-mhc70k-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+    >
+      <img
+        alt="Product 4"
+        src="https://cdn.shopify.com/s/files/1/0679/2177/2853/products/shirt_378037390_1000.jpg?v=1668572895"
+        title="Product 4"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+    >
+      <h4>
+        Product 4
+      </h4>
+    </div>
+  </div>
+  <div
+    className="description_cause"
+  >
+    Test
+  </div>
+  <div
+    className="price_cause"
+  >
+    Price: 
+    20
+  </div>
+</div>
+`;

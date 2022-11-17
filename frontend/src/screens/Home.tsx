@@ -1,9 +1,16 @@
 import React from "react";
-import Rows from "../components/rows/Rows";
-import { Row } from "../types/enum/row";
+import { Products } from "../components/products";
+import { Search } from "../components/search";
+import { useProducts } from "../hooks/useProducts";
 
 const Home = () => {
-  return <div>hola mundo</div>;
+  const { products } = useProducts();
+  return (
+    <>
+      <Search />
+      <Products products={products} />
+    </>
+  );
 };
 
 export default Home;

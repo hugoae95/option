@@ -7,7 +7,7 @@ const Layout = (props: any) => {
   return (
     <>
       <Header></Header>
-      <Grid className="footer container" container>
+      <Grid className="site container" container>
         {props.children}
       </Grid>
       <Footer></Footer>
