@@ -1,10 +1,14 @@
 # -------------------- FRONTEND ---------------------------
 
-This Project use Flux and Clean Arquitecture 
+This Project use Flux (Redux) and Clean Arquitecture 
 
-Go to frontend directory:
+Go to frontend directory: cd frontend
 
 ## Available Scripts
+
+For install project: 
+
+### `yarn install`
 
 In the project directory, you can run:
 
@@ -25,9 +29,13 @@ Launches the test runner in the interactive watch mode.
 
 This Project use DDD (Domain Driven Design) Archicture 
 
-Go to api directory:
+Go to api directory: cd api
 
 ## Available Scripts
+
+For install project: 
+
+### `yarn install`
 
 In the project directory, you can run:
 
